@@ -1,0 +1,9 @@
+<div class="tutorial-container">
+  @if (tourService.showOverlay) {
+    <div class="overlay"></div> <!-- Grey transparent layer -->
+  }
+  <button (click)="startTour()">
+    <img src="/assets/signpost-split.svg" alt="Tutorial Icon" class="button-icon">
+    Tutorial
+  </button>
+</div>
