@@ -1,0 +1,88 @@
+/* Shepherd Modal Customization */
+.shepherd-theme-custom {
+  background: #242328 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  padding: 10px; /* Reduced padding to maximize space */
+  width: 500px !important; /* Custom width */
+  height: 365px !important; /* Custom height */
+  max-width: none !important;
+  max-height: none !important;
+  overflow: hidden; /* No scrolling */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Ensure spacing is even */
+}
+
+/* Font sizes for the modal */
+h1 {
+  color: #ffffff !important;
+  font-weight: lighter;
+  font-size: 25px !important; /* Adjusted size */
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+h4 {
+  color: #ffffff !important;
+  font-weight: lighter;
+  font-size: 15px !important; /* Adjusted size */
+  margin-bottom: 5px;
+}
+
+p {
+  color: #ffffff !important;
+  font-size: 10px !important; /* Adjusted size */
+  margin-bottom: 5px;
+  line-height: 1.4; /* Increased line height for readability */
+}
+
+/* Step Counter (Step X of Y) */
+.shepherd-step-counter {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Button Styling */
+.shepherd-button {
+  background: #5286E9 !important; /* Blue buttons */
+  color: white !important;
+  border-radius: 5px !important;
+  padding: 6px 10px;
+  font-weight: bold;
+  font-size: 12px !important; /* Adjusted size */
+}
+
+/* Button Layout */
+.shepherd-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Previous button positioned to the left */
+.shepherd-button-prev {
+  margin-right: auto;
+}
+
+/* Next/Finish button positioned to the right */
+.shepherd-button-next {
+  margin-left: auto;
+}
+
+/* Hover Effect for Buttons */
+.shepherd-button:hover {
+  background: #6A9CFF !important; /* Darker blue on hover */
+}
+
+/* Remove spacing between Shepherd modal title and text */
+.shepherd-modal .shepherd-title,
+.shepherd-modal .shepherd-text {
+  margin-bottom: 0 !important; /* Remove margin */
+  padding-bottom: 0 !important; /* Remove padding */
+}
